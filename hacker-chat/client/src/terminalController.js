@@ -56,7 +56,7 @@ export default class TerminalController {
     }
     #onStatusChanged({ screen, status }) {
 
-        // [ 'gabrielrocha', 'mariazinha']
+        // [ 'erickwendel', 'mariazinha']
         return users => {
 
             // vamos pegar o primeiro elemento da lista
@@ -80,7 +80,7 @@ export default class TerminalController {
     }
     async initializeTable(eventEmitter) {
         const components = new ComponentsBuilder()
-            .setScreen({ title: 'HackerChat - Gabriel Rocha' })
+            .setScreen({ title: 'HackerChat - Erick Wendel' })
             .setLayoutComponent()
             .setInputComponent(this.#onInputReceived(eventEmitter))
             .setChatComponent()
