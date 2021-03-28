@@ -9,19 +9,19 @@
 
 /*
 
-npm i -g @erickwendel/hacker-chat-client
+npm i -g @gabrielrocha/hacker-chat-client
 
-npm unlink -g @erickwendel/hacker-chat-client
+npm unlink -g @gabrielrocha/hacker-chat-client
 hacker-chat \
-    --username erickwendel \
+    --username gabrielrocha \
     --room sala01
 
 ./index.js \
-    --username erickwendel \
+    --username gabrielrocha \
     --room sala01
 
 node index.js \
-    --username erickwendel \
+    --username gabrielrocha \
     --room sala01 \
     --hostUri localhost
 */

@@ -29,7 +29,7 @@ export default class Controller {
             .map(({ id, userName }) => ({ userName, id }))
 
         //  atualiza o usuario corrente sobre todos os usuarios
-        // que jaa estao conectados na mesma sala
+        // que ja estao conectados na mesma sala
         this.socketServer
             .sendMessage(user.socket, constants.event.UPDATE_USERS, currentUsers)
 
